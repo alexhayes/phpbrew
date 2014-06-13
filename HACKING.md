@@ -6,9 +6,14 @@ Install Onion first:
 
     $ curl http://install.onionphp.org/ | sh
 
-Install dependencies:
+Install composer:
 
+    $ curl -sS https://getcomposer.org/installer | php
+
+Install dependencies:
+ 
     $ onion -d install
+    $ php composer.phar install
 
 Initialize
 
